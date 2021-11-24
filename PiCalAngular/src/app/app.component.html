@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg  sticky-top  navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PiCal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page"   [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+            true}">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/reservation']" routerLinkActive="active" aria-current="page" >Réservation</a>
+        </li>
+    
+      </ul>
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Connexion</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

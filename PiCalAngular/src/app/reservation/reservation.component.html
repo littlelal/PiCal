@@ -1,0 +1,10 @@
+<ejs-schedule width="100%" height="850px"  [selectedDate]="selectedDate" [views]="views"
+      [eventSettings]="eventSettings" [group]='group'>
+      <e-resources>
+        <e-resource field="ProjectId" title="Choose Project" name="Projects"
+            [dataSource]="projectDataSource"
+            textField="text" idField="id" colorField="color">
+        </e-resource>
+       
+      </e-resources>
+    </ejs-schedule>

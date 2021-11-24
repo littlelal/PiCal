@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+$blue:    #252487 !default;
+$font-primary: 'Poppins',Arial, sans-serif;
+$primary: #252487;
+$secondary: #8c8c8c;
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@import '../node_modules/@syncfusion/ej2-base/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-calendars/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/bootstrap5.css';
+@import '../node_modules/@syncfusion/ej2-angular-schedule/styles/bootstrap5.css';
